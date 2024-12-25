@@ -1,0 +1,2 @@
+# Conflicting CSS properties 'display: none' and 'visibility: hidden'
+This example demonstrates a subtle bug caused by applying both `display: none` and `visibility: hidden` to the same element.  While both properties can hide an element, they do so in different ways, and applying both can lead to unexpected results or inconsistencies depending on the browser or other CSS rules in effect.  The solution highlights how to correct the issue and avoid such conflicts.
